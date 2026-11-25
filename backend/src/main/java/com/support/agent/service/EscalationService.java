@@ -1,5 +1,7 @@
-package com.support.agent.escalation;
+package com.support.agent.service;
 
+import com.support.agent.entity.Escalation;
+import com.support.agent.repository.EscalationRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

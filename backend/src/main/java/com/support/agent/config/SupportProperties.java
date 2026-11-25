@@ -1,4 +1,4 @@
-package com.support.agent;
+package com.support.agent.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

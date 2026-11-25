@@ -1,5 +1,7 @@
-package com.support.agent.escalation;
+package com.support.agent.controller;
 
+import com.support.agent.entity.Escalation;
+import com.support.agent.repository.EscalationRepository;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.support.agent.chat;
+package com.support.agent.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

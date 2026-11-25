@@ -1,7 +1,8 @@
-package com.support.agent.chat;
+package com.support.agent.controller;
 
-import com.support.agent.chat.ChatDtos.ChatRequest;
-import com.support.agent.chat.ChatDtos.ChatResponse;
+import com.support.agent.dto.ChatDtos.ChatRequest;
+import com.support.agent.dto.ChatDtos.ChatResponse;
+import com.support.agent.service.ChatService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

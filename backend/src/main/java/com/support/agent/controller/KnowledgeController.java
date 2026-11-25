@@ -1,4 +1,4 @@
-package com.support.agent.knowledge;
+package com.support.agent.controller;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

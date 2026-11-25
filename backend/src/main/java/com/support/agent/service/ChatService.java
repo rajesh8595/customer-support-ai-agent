@@ -1,10 +1,11 @@
-package com.support.agent.chat;
+package com.support.agent.service;
 
-import com.support.agent.SupportProperties;
-import com.support.agent.chat.ChatDtos.ChatRequest;
-import com.support.agent.chat.ChatDtos.ChatResponse;
-import com.support.agent.chat.ChatDtos.Source;
-import com.support.agent.escalation.EscalationService;
+import com.support.agent.config.SupportProperties;
+import com.support.agent.dto.ChatDtos.ChatRequest;
+import com.support.agent.dto.ChatDtos.ChatResponse;
+import com.support.agent.dto.ChatDtos.Source;
+import com.support.agent.entity.ChatMessage;
+import com.support.agent.repository.ChatMessageRepository;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

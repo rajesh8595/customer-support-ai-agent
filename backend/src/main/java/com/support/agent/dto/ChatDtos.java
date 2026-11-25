@@ -1,4 +1,4 @@
-package com.support.agent.chat;
+package com.support.agent.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import java.util.List;

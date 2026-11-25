@@ -1,4 +1,4 @@
-package com.support.agent.knowledge;
+package com.support.agent.config;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
